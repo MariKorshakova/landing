@@ -1,0 +1,45 @@
+/* Стиль меню навигации */
+.topnav-mob {
+	overflow: hidden;
+	background-color: #fff;
+	position: relative;
+ }
+ 
+ /* Скрыть ссылки внутри меню навигации ( кроме главной/логотип) */
+.menu-mob__items{
+	display: none;
+ }
+ 
+ /* Стиль меню гамбургера */
+.top-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	align-items: center;
+ }
+
+ .top-icon svg{
+	padding: 10px;
+	height: 40px;
+	height: 40px;
+ }
+
+ /* Ссылки меню навигации по стилю */
+ .menu-mob__item{
+	color: #000;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	border-bottom: 1px solid #CB10A6;
+ }
+ 
+
+ 
+ /* Добавить серый цвет фона при наведении курсора мыши */
+ .topnav-mob a:hover {
+	background-color: #CB10A6;
+	color: #fff;
+	transform: translate(all .3s);
+ }

@@ -10,15 +10,15 @@
 </head>
 
 <body>
-	<div class="header">
+	<header class="header">
 		<div class="container">
-			<div class="header__inner">
-				<img class="header__inner-logo" src="" alt="logo">
+			<div class="header-inner">
+				<img class="header-inner__logo" src="images/icons/Logo.png" alt="logo">
 				<nav class="menu">
 					<ul class="menu__list">
 						<li class="menu__list-item">
-							<form action="#" class="header__inner-form">
-								<select class="header__inner-select-product">
+							<form action="#" class="header-inner__form">
+								<select class="header-inner__select-product select-style">
 									<option value="">Product</option>
 									<option value="">2</option>
 									<option value="">3</option>
@@ -33,8 +33,8 @@
 							<a class="menu__list-link" href="#">Integrations</a>
 						</li>
 						<li class="menu__list-item">
-							<form action="#" class="header__inner-form">
-								<select class="header__inner-select-resources">
+							<form action="#" class="header-inner__form">
+								<select class="header-inner__select-resources select-style">
 									<option value="">Resources</option>
 									<option value="">2</option>
 									<option value="">3</option>
@@ -43,8 +43,8 @@
 							</form>
 						</li>
 						<li class="menu__list-item">
-							<form action="#" class="header__inner-form">
-								<select class="header__inner-select-resources">
+							<form action="#" class="header-inner__form">
+								<select class="header-inner__select-company select-style">
 									<option value="">Company</option>
 									<option value="">2</option>
 									<option value="">3</option>
@@ -54,14 +54,525 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="header__inner-buttons">
-					<button class="header__inner-demo">View demo</button>
-					<button class="header__inner-start">GET STARTED</button>
+				<div class="header-inner__buttons btn__header">
+					<button class="header-inner__demo header-btn">View demo</button>
+					<button class="header-inner__start header-btn header-btn--active">GET STARTED</button>
+				</div>
+			</div>
+			<div class="topnav-mob">
+				<img class="header-inner__logo" src="images/icons/Logo.png" alt="logo">
+				<div class="menu-mob__items" id="myLinks">
+					<a class="menu-mob__item" href="#">Product</a>
+					<a class="menu-mob__item" href="#">Pricing</a>
+					<a class="menu-mob__item" href="#">Integrations</a>
+					<a class="menu-mob__item" href="#">Resources</a>
+					<a class="menu-mob__item" href="#">Company</a>
+				</div>
+				<a href="javascript:void(0);" class="top-icon" onclick="myFunction()">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+						<path
+							d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+					</svg>
+				</a>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="top">
+			<div class="container">
+				<div class="top__subtitle">The all-in-one affiliate software</div>
+				<div class="top__title">Track, Optimize & Automate</div>
+				<p class="top__text"> your advertising with affiliate tracking software recommended by digital marketers
+					from
+					around the globe!</p>
+				<div class="header-inner__buttons">
+					<button class="header-inner__demo header-btn">View demo</button>
+					<button class="header-inner__start header-btn header-btn--active">GET STARTED</button>
+				</div>
+			</div>
+		</section>
+		<section class="trafic">
+			<div class="container">
+				<img class="trafic__img" src="images/trafic-main.png" alt="trafic">
+				<div class="trafic__info">
+					<div class="trafic__label">
+						<img src="images/icons/trafic-rec.png" alt="trafic">
+					</div>
+					<h1 class="trafic__title title">Integrated with 40+ Traffic sources</h1>
+				</div>
+			</div>
+			<div class="trafic__partners">
+				<div class="container">
+					<div class="trafic__partners-items">
+						<img class="trafic__partners-img" src="images/icons/google-abs.png" alt="google-abs">
+						<img class="trafic__partners-img" src="images/icons/facebook-trafic.png" alt="facebook">
+						<img class="trafic__partners-img" src="images/icons/propeller.png" alt="propeller">
+						<img class="trafic__partners-img" src="images/icons/taboola.png" alt="taboola">
+						<img class="trafic__partners-img" src="images/icons/click.png" alt="click.">
+						<img class="trafic__partners-img" src="images/icons/outbrain.png" alt="outbrain">
+						<img class="trafic__partners-img" src="images/icons/mgid.png" alt="mgid">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cookie">
+			<div class="container">
+				<div class="cookie-content">
+					<div class="cookie__info">
+						<div class="cookie__info-subtitle subtitle">Campaign Optimisation</div>
+						<h1 class="cookie__info-title title">Cookie-less tracking & conversion attribution</h1>
+						<div class="cookie__info-text">
+							<p>Forget cookie-dependent pixels. Use reliable server–to–server postbacks
+								to
+								get conversion data, distinguish between various conversion types and even pass them to your
+								traffic
+								source!</p>
+							<p>Determine which ad variation, lander, or offer brought you conversions
+								and effortlessly optimize your campaign flows for even more.</p>
+						</div>
+						<div class="cookie__info-market">
+							<img class="cookie__info-google" src="images/icons/google-play.png" alt="google play">
+							<img class="cookie__info-apple" src="images/icons/app-store.png" alt="apple store">
+						</div>
+					</div>
+					<img class="cookie__img" src="images/cookie.png" alt="cookie">
+				</div>
+			</div>
+		</section>
+		<section class="performance">
+			<div class="container">
+				<h1 class="performance__title title">Improve your ad performance with our affiliate marketing software</h1>
+				<div class="performance-nav__panel">
+					<div class="performance-nav__panel-item performance-nav__panel-item--active"> <a href="#">Track</a></div>
+					<div class="performance-nav__panel-item"><a href="#">Optimize</a></div>
+					<div class="performance-nav__panel-item"><a href="#">Automate</a></div>
+				</div>
+			</div>
+			<div class="track-container container">
+				<div class="track">
+					<div class="track-content">
+						<div class="track-content__subtitle subtitle">AFFILIATE MARKETING TRACKING</div>
+						<h1 class="track-content__title title">Track everything in one place</h1>
+						<div class="track-content__text">
+							<p class="track-content__text-one">What kind of ads do you run? Native, display, pop, email,
+								search, push, social, video? Paid or
+								organic? Voluum affiliate tracker lets you track it all! With or without redirects.</p>
+							<p class="track-content__text-one">Thanks to our superfast reporting you can easily monitor over
+								30
+								metrics about each visit, click,
+								and conversion coming from all of your traffic sources – with one tool and in real time!</p>
+						</div>
+						<button class="track-content__btn">
+							VIEW CASE STUDIES
+						</button>
+					</div>
+					<img src="images/track.png" alt="track">
+				</div>
+			</div>
+			<div class="features container">
+				<div class="features-info">
+					<h1 class="features-info__title title">Features so good, they will change the way you do affiliate
+						marketing</h1>
+					<button class="features-info__btn">
+						<span>SEE ALL FEATURES</span>
+					</button>
+				</div>
+				<div class="features-items">
+					<div class="features-item">
+						<div class="features-item__img">
+							<div class="features-item__automizer"></div>
+						</div>
+						<div class="features-item__name">Automizer</div>
+						<p class="features-item__text">Integrate all your traffic sources with Voluum and set up custom
+							rules ro auto-optimize your campaigns</p>
+						<a class="features-item__link" href="#">Learn More</a>
+					</div>
+					<div class="features-item">
+						<div class="features-item__img">
+							<div class="features-item__traffic"></div>
+						</div>
+						<div class="features-item__name">Traffic distribution AI</div>
+						<p class="features-item__text">Integrate all your traffic sources with Voluum and set up custom
+							rules ro auto-optimize your campaigns</p>
+						<a class="features-item__link" href="#">Learn More</a>
+					</div>
+					<div class="features-item">
+						<div class="features-item__img">
+							<div class="features-item__anti"></div>
+						</div>
+						<div class="features-item__name">Anti-Fraud Kit</div>
+						<p class="features-item__text">Integrate all your traffic sources with Voluum and set up custom
+							rules ro auto-optimize your campaigns</p>
+						<a class="features-item__link" href="#">Learn More</a>
+					</div>
+					<div class="features-item">
+						<div class="features-item__img">
+							<div class="features-item__alerts"></div>
+						</div>
+						<div class="features-item__name">Alerts</div>
+						<p class="features-item__text">Integrate all your traffic sources with Voluum and set up custom
+							rules ro auto-optimize your campaigns</p>
+						<a class="features-item__link" href="#">Learn More</a>
+					</div>
+				</div>
+		</section>
+		<section class="traking">
+			<div class="container">
+				<div class="traking-info">
+					<div class="traking-slider">
+						<div class="traking-slider__items">
+							<div class="traking-slider__item">
+								<p class="traking-slider__text">I used nearly every tracking tool on the market and I always
+									come
+									back to Voluum. It provides the most user-friendly interface and has the in-depth reporting
+									features I need.</p>
+								<p class="traking-slider__author">Luke Kling</p>
+								<p class="traking-slider__position">Affiliate Community Leader</p>
+								<img class="traking-slider__logo" src="images/icons/traking-logo.png" alt="logo">
+							</div>
+							<div class="traking-slider__item">
+								<p class="traking-slider__text">I used nearly every tracking tool on the market and I always
+									come
+									back to Voluum. It provides the most user-friendly interface and has the in-depth reporting
+									features I need.</p>
+								<p class="traking-slider__author">Luke Kling</p>
+								<p class="traking-slider__position">Affiliate Community Leader</p>
+								<img class="traking-slider__logo" src="images/icons/traking-logo.png" alt="logo">
+							</div>
+							<div class="traking-slider__item">
+								<p class="traking-slider__text">I used nearly every tracking tool on the market and I always
+									come
+									back to Voluum. It provides the most user-friendly interface and has the in-depth reporting
+									features I need.</p>
+								<p class="traking-slider__author">Luke Kling</p>
+								<p class="traking-slider__position">Affiliate Community Leader</p>
+								<img class="traking-slider__logo" src="images/icons/traking-logo.png" alt="logo">
+							</div>
+							<div class="traking-slider__item">
+								<p class="traking-slider__text">I used nearly every tracking tool on the market and I always
+									come
+									back to Voluum. It provides the most user-friendly interface and has the in-depth reporting
+									features I need.</p>
+								<p class="traking-slider__author">Luke Kling</p>
+								<p class="traking-slider__position">Affiliate Community Leader</p>
+								<img class="traking-slider__logo" src="images/icons/traking-logo.png" alt="logo">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="affiliate">
+			<div class="container">
+				<div class="affiliate-bg">
+					<div class="affiliate-inner">
+						<div class="affiliate-inner__video" style="background-image: url('images/video-bg.jpg');">
+							<a class="affiliate-inner__play" data-fancybox=""
+								href="https://www.youtube.com/watch?v=mOWXI6VKGpg">
+								<img src="images/icons/play-solid.svg" alt="video play">
+							</a>
+						</div>
+						<div class="affiliate-inner__info">
+							<div class="affiliate-inner__subtitle subtitle">AFFILIATE MARKETING TRACKING</div>
+							<h1 class="affiliate-inner__title title">An affiliate tracking platform made for affiliates, by
+								affiliates</h1>
+							<p class="affiliate-inner__text">Watch a short video about an affiliate marketer who has inspired a
+								team of 100+ creative minds to develop a truly game-changing ad tracking software.</p>
+							<button class="affiliate-inner__btn">
+								<span>GET TO KNOW US</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="affiliate-traking">
+					<div class="affiliate-traking__info">
+						<div class="affiliate-traking__subtitle subtitle">AFFILIATE MARKETING TRACKING</div>
+						<h1 class="affiliate-traking__title title">Affiliate tracking made easy</h1>
+						<div class="affiliate-traking__text">
+							<p>You are in good hands! Our team provides tons of useful educational content for affiliate
+								marketing tracking:</p>
+							<ul class="affiliate-traking__points">
+								<li class="affiliate-traking__point">Video tutorials
+								</li>
+								<li class="affiliate-traking__point">Live webinars
+								</li>
+								<li class="affiliate-traking__point">Dedicated support
+								</li>
+								<li class="affiliate-traking__point">1on1 onboarding
+								</li>
+								<li class="affiliate-traking__point">Step-by-step guides
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="affiliate-traking__img">
+						<img src="images/affiliate-marketing.jpg" alt="affiliate marketing">
+						<div class="affiliate-traking__img-bg"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="community">
+			<div class="community-container container">
+				<h1 class="community__title title">We're a part of the affiliate community since 2015!</h1>
+				<div class="community__text">Official tracking partner of</div>
+				<div class="community__partners">
+					<img class="community__partner" src="images/icons/clickbank.png" alt="clickbank">
+					<img class="community__partner" src="images/icons/exoclick.png" alt="exoclick">
+					<img class="community__partner" src="images/icons/propeller-ads.png" alt="proprller abs">
+					<img class="community__partner" src="images/icons/mobidea.png" alt="mobidea">
+				</div>
+				<div class="community__text">Find us on</div>
+				<div class="community__partners">
+					<img class="community__partner" src="images/icons/lift.png" alt="lift">
+					<img class="community__partner" src="images/icons/adsociety.png" alt="adsociety">
+					<img class="community__partner" src="images/icons/affiliate.png" alt="affiliate">
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="footer-top-start">
+					<h2 class="footer-top-start__title">Control all your advertising from just one platform!</h2>
+					<button class="footer-top-start__btn">
+						<span>get started</span>
+					</button>
+				</div>
+				<div class="footer-top-store">
+					<h5 class="footer-top-store__title">Track on the go</h5>
+					<div class="footer-top-store__img">
+						<img class="footer-top-store__img-play" src="images/icons/google-play.png" alt="google play">
+						<img class="footer-top-store__img-store" src="images/icons/app-store.png" alt="app store">
+					</div>
+				</div>
+			</div>
+			<div class="footer-inner">
+				<div class="footer-inner__info">
+					<div class="footer-inner__info-main">
+						<div class="footer-inner__info-content">
+							<p class="footer-inner__info-title title">Buy native traffic</p>
+							<img class="footer-inner__info-logo" src="images/icons/logo-footer.png" alt="logo">
+							<p class="footer-inner__info-title">Join our communities of affiliates on</p>
+							<div class="footer-inner__info-apps">
+								<div class="footer-inner__info-social footer-inner__info-facebook"><a href="#">facebook</a>
+								</div>
+								<div class="footer-inner__info-social footer-inner__info-telegram"><a href="#">Telegram</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer-inner__info-partners">
+							<img class="footer-inner__info-partner" src="images/icons/partner.png" alt="partner">
+						</div>
+					</div>
+					<div class="footer-inner__info-nav">
+						<div class="footer-inner__info-list">
+							<ul class="footer-inner__info-list-items">
+								<span>COMPANY</span>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">About Us</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">Become a partner</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">Referral Program</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-inner__info-list">
+							<ul class="footer-inner__info-list-items">
+								<span>FEATURES</span>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Automizer
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Traffic Distribution AI
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Anti-Fraud Kit
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Mobile Notifications
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Collaboration Tools
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-inner__info-list">
+							<ul class="footer-inner__info-list-items">
+								<span>INTEGRATIONS</span>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Taboola
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										MGID
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Revcontent
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										PropellerAds
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										CExoClick
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Zeropark
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Outbrain
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Content.ad
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Adsterra
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										TrafficJunky
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										and more!
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-inner__info-list">
+							<ul class="footer-inner__info-list-items">
+								<span>RESOURCES</span>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Beginner AM Guide
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Webinars
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Video Tutorials
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Documentation
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Case Studies
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Trackers Comparison
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Blog
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Affiliate Networks
+									</a>
+								</li>
+								<li class="footer-inner__info-list-item">
+									<a class="footer-inner__info-list-link" href="#">
+										Change Log
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-inner__conf">
+					<div class="footer-inner__conf-privacy">© Voluum by CentralNic 2015-2021</div>
+					<ul class="footer-inner__conf-list">
+						<li class="footer-inner__conf-link">
+							<a href="#">
+								End User Privacy Policy
+							</a>
+						</li>
+						<li class="footer-inner__conf-link">
+							<a href="#">
+								Privacy Policy
+							</a>
+						</li>
+						<li class="footer-inner__conf-link">
+							<a href="#">
+								Cookies policy
+							</a>
+						</li>
+						<li class="footer-inner__conf-link">
+							<a href="#">
+								Terms & Conditions
+							</a>
+						</li>
+						<li class="footer-inner__conf-link">
+							<a href="#">
+								DPA
+							</a>
+						</li>
+						<li class="footer-inner__conf-link">
+							<a href="#">
+								Security
+							</a>
+						</li>
+					</ul>
+					<div class="footer-inner__conf-social">
+						<img class="footer-inner__conf-social-item" src="images/icons/facebook-footer.svg" alt="facebook">
+						<img class="footer-inner__conf-social-item" src="images/icons/linkedin-footer.svg" alt="linkedin">
+						<img class="footer-inner__conf-social-item" src="images/icons/youtube-footer.svg" alt="youtube">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
+	</footer>
 	<script src="js/main.min.js"></script>
 </body>
 
